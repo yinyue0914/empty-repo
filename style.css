@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma,Arial, sans-serif;
+    background-image: url(images/langara.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background-image: url(images/langara-logo.png);
+    background-size: 15.59%;
+    background-position: 0% 20%;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    padding-left: 240px;
+    color: whitesmoke;
+    background-color: rgba(235, 89, 22, 0.912);
+}
+header a{
+    text-decoration: none;
+}
+header a:link{
+    color: whitesmoke;
+}
+header a:visited{
+    color: whitesmoke;
+}
+header a:hover{
+    color: #FEF6C2;
+}
+main{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 200px;
+    padding-top: 0;
+    background-color: #FEF6C2;
+    overflow: auto;
+}
+main h2{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h4{
+    padding-left: 3em;
+    padding-right: 2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    clear: left;
+}
+main p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+#details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+.onethird{
+    float: left;
+    width: 33%;
+}
+audio{
+    display: block;
+    margin-top: 1em;
+}
+#homehero{
+    height: 300px;
+    background-image: url(images/lanagra01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#log{
+    background-image: url(images/langara-logo.png);
+    width:25%;
+}
+#heromugs{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(images/langara02.jpg);
+}
+#heroguitar{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(images/heroguitar.jpg);
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    background-color: rgba(240, 79, 5, 0.859);
+    color: #8C3826;
+    font-size: 3em;
+}
+h2{
+    color: #8C3826;
+}
+nav{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    float: left;
+    width: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+nav a:link {color: #FEF6C2;}
+nav a:visited{color: #D2B48C;}
+nav a:hover{color: #CC9933;}
+nav a{text-decoration: none;}
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+footer{
+    background-color: rgba(240, 79, 5, 0.379)    ;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    border-top: solid 2px #8C3826;
+}
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+h3{
+    color: #8C3826;
+}
+#wrapper{
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 2px 2px rgba(240, 79, 5, 0.859);
+    background-color: rgba(240, 79, 5, 0.859);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
