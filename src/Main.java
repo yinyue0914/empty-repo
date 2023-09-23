@@ -25,7 +25,7 @@ public class Main {
         menuStack.push(mainMenu);
 
         while (!menuStack.isEmpty()) {
-            AbstractMenu currentMenu = menuStack.peek();
+            AbstractMenu mainMe = menuStack.peek();
             currentMenu.displayMenu();
             currentMenu.handleUserInput();
 
@@ -34,16 +34,22 @@ public class Main {
                 // Don't allow "back" from the main menu
                 continue;
             }else {
-
+                System.out.println("0. Go Back");
             }
+
+            int choice = getUserInput();
+
+            if (choice == 0 && !(currentMenu instanceof MainMenu)) {
+                // User wants to go back, pop the current menu from the stack
+                menuStack.pop();
+            } else {
+                currentMenu.processUserChoice(choice);
+            }
+
 
             mainMenu.displayMenu();
             mainMenu.handleUserInput();
 
-
         }
-
-
-
     }
 }
