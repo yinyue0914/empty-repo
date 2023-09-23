@@ -29,6 +29,9 @@ public class MainMenu extends AbstractMenu {
                 System.out.println("Enter Account name: ");
                 String a = sc.nextLine();
                 user = new User(a);
+                AccountMenu accountMenu = new AccountMenu();
+                accountMenu.displayMenu();
+                accountMenu.handleUserInput();
 
         }
     }
