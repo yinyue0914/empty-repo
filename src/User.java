@@ -7,11 +7,12 @@ import java.util.Scanner;
 
 public class User {
 
+    private String name;
     //arraylist
     ArrayList<ArrayList<Objects>> contributionsList = new ArrayList<>();
 
-    public User(){
-
+    public User(String name){
+        this.name = name;
 
     }
 

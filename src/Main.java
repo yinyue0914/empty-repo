@@ -36,9 +36,6 @@ public class Main {
 
         mainMenu.displayMenu();
         mainMenu.handleUserInput();
-        User u1 = new User();
-
-
 
 
 
