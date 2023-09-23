@@ -15,17 +15,20 @@ public class Main {
 
 
     }
+
     //tbh basically all this stack push pop stuff is copied
-    private static Stack<AbstractMenu> menuStack = new Stack<>();
+    //private static Stack<AbstractMenu> menuStack = new Stack<>();
 
 
     public void start() {
 
         MainMenu mainMenu = new MainMenu();
-        menuStack.push(mainMenu);
+        mainMenu.displayMenu();
+        mainMenu.handleUserInput();
+        /*menuStack.push(mainMenu);
 
         while (!menuStack.isEmpty()) {
-            AbstractMenu mainMe = menuStack.peek();
+            AbstractMenu currentMenu = menuStack.peek();
             currentMenu.displayMenu();
             currentMenu.handleUserInput();
 
@@ -46,9 +49,8 @@ public class Main {
                 currentMenu.processUserChoice(choice);
             }
 
+         */
 
-            mainMenu.displayMenu();
-            mainMenu.handleUserInput();
 
         }
     }

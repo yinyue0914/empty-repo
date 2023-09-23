@@ -15,6 +15,7 @@ public class ContributeInfoMenu extends AbstractMenu {
         System.out.println("1: Study spaces");
         System.out.println("2: Places to eat");
         System.out.println("3: Spots near campus");
+        System.out.println("0: Go back");
 
     }
 
@@ -35,6 +36,10 @@ public class ContributeInfoMenu extends AbstractMenu {
                 StudySpacesMenu studySpacesMenu = new StudySpacesMenu();
                 studySpacesMenu.addPlace(studySpacesMenu.makeHeader(), studySpacesMenu.makeDescription());
                 break;
+            case 0:
+                MainMenu mainMenu = new MainMenu();
+                mainMenu.displayMenu();
+                mainMenu.handleUserInput();
         }
     }
 
