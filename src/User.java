@@ -7,15 +7,24 @@ import java.util.Scanner;
 
 public class User {
 
-    //arraylist of arraylists
-    List<ArrayList<Objects>> contributionsList = new ArrayList<>();
+    private String name;
+    //arraylist
+    ArrayList<ArrayList<Objects>> contributionsList = new ArrayList<>();
 
-    public User(){
-
+    public User(String name){
+        this.name = name;
 
     }
 
-
+    public static void displayAllContributions(ArrayList<ArrayList<Objects>> contributionsList) {
+        for (ArrayList<Objects> innerList : contributionsList) {
+            System.out.println("");
+            for (Objects element : innerList) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
+    }
 
 
 

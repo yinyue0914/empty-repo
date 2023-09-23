@@ -50,6 +50,11 @@ public class Contributions {
     }
 
 
+    public <T> void showUsersPlacesToEat(ArrayList<T>placesToEatArrayList){
+        for(T place : placesToEatArrayList){
+            System.out.println(place);
+        }
 
+    }
 
 }
