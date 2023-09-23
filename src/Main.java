@@ -10,19 +10,18 @@ import java.util.Stack;
 public class Main {
 
     //tbh basically all this stack push pop stuff is copied
-    //private static Stack<AbstractMenu> menuStack = new Stack<>();
+    private static Stack<AbstractMenu> menuStack = new Stack<>();
 
 
-    public void start(){
+    public void start() {
 
         MainMenu mainMenu = new MainMenu();
-        //menuStack.push(mainMenu);
+        menuStack.push(mainMenu);
 
-        /*while (!menuStack.isEmpty()) {
+        while (!menuStack.isEmpty()) {
             AbstractMenu currentMenu = menuStack.peek();
             currentMenu.displayMenu();
             currentMenu.handleUserInput();
-
 
 
             // After handling user input, you can implement a "back" option
@@ -31,24 +30,19 @@ public class Main {
                 continue;
             }
 
-         */
+            mainMenu.displayMenu();
+            mainMenu.handleUserInput();
 
 
-        mainMenu.displayMenu();
-        mainMenu.handleUserInput();
+        }
 
 
+        public static void main(String[] args){
+
+            Main start1 = new Main();
+            start1.start();
 
 
-    }
-
-
-    public static void main(String[] args) {
-
-        Main start1 = new Main();
-        start1.start();;
-
-
-
+        }
     }
 }
