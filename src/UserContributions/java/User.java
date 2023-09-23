@@ -1,3 +1,5 @@
+package UserContributions.java;
+
 import UserContributions.java.Contributions;
 
 import java.util.ArrayList;

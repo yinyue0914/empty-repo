@@ -1,5 +1,7 @@
 package Menus.java;
 
+import UserContributions.java.User;
+
 import java.util.Scanner;
 
 public class MainMenu extends AbstractMenu {
@@ -26,7 +28,7 @@ public class MainMenu extends AbstractMenu {
             case 2:
                 System.out.println("Enter Account name: ");
                 String a = sc.nextLine();
-                User u1 = new
+
         }
     }
 }
