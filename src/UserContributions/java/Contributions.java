@@ -40,9 +40,11 @@ public class Contributions {
             case 2:
                 PlacesToEat placesToEat = new PlacesToEat(header, description);
                 placesToEatArrayList.add(placesToEat);
+                break;
             case 3:
                 StudySpaces studySpaces = new StudySpaces(header, description);
                 studySpaceArrayList.add(studySpaces);
+                break;
                 default:
                 throw new IllegalStateException("Unexpected value: " + i);
         }
@@ -50,11 +52,6 @@ public class Contributions {
     }
 
 
-    public <T> void showUsersPlacesToEat(ArrayList<T>placesToEatArrayList){
-        for(T place : placesToEatArrayList){
-            System.out.println(place);
-        }
 
-    }
 
 }
