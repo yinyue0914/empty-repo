@@ -7,6 +7,7 @@ public class StudySpacesMenu extends ContributeInfoMenu{
 
 
     public void addPlace(String header, String description){
-        StudySpaces.addContribution(header, description);
+
+        StudySpaces.addContribution(3,header, description);
     }
 }

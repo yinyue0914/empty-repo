@@ -10,6 +10,7 @@ public class SpotsNearCampusMenu extends ContributeInfoMenu {
 
 
     public void addPlace(String header, String description){
-        SpotsNearCampus.addContribution(header, description);
+
+        SpotsNearCampus.addContribution(1,header, description);
     }
 }

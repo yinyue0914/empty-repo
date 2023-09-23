@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a179061-0319-4d2c-9d5f-1858570abda6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hihi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/AbstractMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/ContributeInfoMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/PlacesToEatMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/SpotsNearCampusMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menus/java/StudySpacesMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserContributions/java/Contributions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserContributions/java/PlacesToEat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserContributions/java/SpotsNearCampus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserContributions/java/StudySpaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menus/java/PlacesToEatMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menus/java/PlacesToEatMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menus/java/SpotsNearCampusMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menus/java/SpotsNearCampusMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menus/java/StudySpacesMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menus/java/StudySpacesMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
