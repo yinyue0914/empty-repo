@@ -20,5 +20,4 @@ public class SpotsNearCampus extends Contributions {
 
 
 
-
 }

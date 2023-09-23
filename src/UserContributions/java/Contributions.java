@@ -29,7 +29,23 @@ public class Contributions {
     //--------------------------------------------------------------------------------------
 
     public static void addContribution(int i, String header, String description){
-
+        switch (i){
+            //1-spot
+            //2-places
+            //3-study
+            case 1:
+                SpotsNearCampus spotsNearCampus = new SpotsNearCampus(header, description);
+                spotsNearCampusArrayList.add(spotsNearCampus);
+                break;
+            case 2:
+                PlacesToEat placesToEat = new PlacesToEat(header, description);
+                placesToEatArrayList.add(placesToEat);
+            case 3:
+                StudySpaces studySpaces = new StudySpaces(header, description);
+                studySpaceArrayList.add(studySpaces);
+                default:
+                throw new IllegalStateException("Unexpected value: " + i);
+        }
 
     }
 
