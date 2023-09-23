@@ -25,20 +25,14 @@ public class ContributeInfoMenu extends AbstractMenu {
         switch (a){
             case 1:
                 SpotsNearCampusMenu spotsNearCampusMenu = new SpotsNearCampusMenu();
-                spotsNearCampusMenu.makeHeader();
-                spotsNearCampusMenu.makeDescription();
                 spotsNearCampusMenu.addPlace(spotsNearCampusMenu.makeHeader(), spotsNearCampusMenu.makeDescription());
                 break;
             case 2:
                 PlacesToEatMenu placesToEatMenu = new PlacesToEatMenu();
-                placesToEatMenu.makeHeader();
-                placesToEatMenu.makeDescription();
                 placesToEatMenu.addPlace(placesToEatMenu.makeHeader(), placesToEatMenu.makeDescription());
                 break;
             case 3:
                 StudySpacesMenu studySpacesMenu = new StudySpacesMenu();
-                studySpacesMenu.makeHeader();
-                studySpacesMenu.makeDescription();
                 studySpacesMenu.addPlace(studySpacesMenu.makeHeader(), studySpacesMenu.makeDescription());
                 break;
         }
