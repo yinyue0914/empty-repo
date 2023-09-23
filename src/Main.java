@@ -8,7 +8,13 @@ import java.util.Stack;
 
 
 public class Main {
+    public static void main(String[] args){
 
+        Main start1 = new Main();
+        start1.start();
+
+
+    }
     //tbh basically all this stack push pop stuff is copied
     private static Stack<AbstractMenu> menuStack = new Stack<>();
 
@@ -23,11 +29,12 @@ public class Main {
             currentMenu.displayMenu();
             currentMenu.handleUserInput();
 
-
             // After handling user input, you can implement a "back" option
             if (currentMenu instanceof MainMenu) {
                 // Don't allow "back" from the main menu
                 continue;
+            }else {
+
             }
 
             mainMenu.displayMenu();
@@ -37,12 +44,6 @@ public class Main {
         }
 
 
-        public static void main(String[] args){
 
-            Main start1 = new Main();
-            start1.start();
-
-
-        }
     }
 }
